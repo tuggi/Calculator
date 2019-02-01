@@ -29,7 +29,6 @@ class MainActivity : AppCompatActivity() {
     }
 
     public fun clear(view: View){
-        calculatorField.setText("")
         calculatorField.setText("0")
 //        Toast.makeText(this, calculatorField.text, Toast.LENGTH_SHORT).show()
     }

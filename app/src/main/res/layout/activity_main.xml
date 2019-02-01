@@ -13,9 +13,9 @@
             android:layout_height="match_parent">
 
         <TextView
-                android:text="0"
+                android:text="@string/value_zero"
                 android:autoSizeTextType="uniform"
-                android:gravity="right"
+                android:gravity="end"
                 android:layout_width="match_parent"
                 android:layout_height="90dp" android:id="@+id/calculatorField"/>
 
@@ -28,31 +28,30 @@
 
                 <Button
                         android:onClick="displayNumber"
-                        android:tag="7"
-                        android:text="7"
+                        android:tag="@string/value_seven"
+                        android:text="@string/value_seven"
                         android:layout_weight="1"
                         android:layout_width="0dp"
                         android:layout_height="match_parent" android:id="@+id/button7"/>
 
                 <Button
                         android:onClick="displayNumber"
-                        android:tag="8"
-                        android:text="8"
+                        android:tag="@string/value_eight"
+                        android:text="@string/value_eight"
                         android:layout_weight="1"
                         android:layout_width="0dp"
                         android:layout_height="match_parent" android:id="@+id/button8"/>
 
                 <Button
                         android:onClick="displayNumber"
-                        android:tag="9"
-                        android:text="9"
+                        android:tag="@string/value_nine"
+                        android:text="@string/value_nine"
                         android:layout_weight="1"
                         android:layout_width="0dp"
                         android:layout_height="match_parent" android:id="@+id/button9"/>
 
                 <Button
                         android:onClick="clear"
-                        android:tag="0"
                         android:text="clear"
                         android:layout_weight="1"
                         android:layout_width="0dp"
@@ -65,24 +64,24 @@
 
                 <Button
                         android:onClick="displayNumber"
-                        android:tag="4"
-                        android:text="4"
+                        android:tag="@string/value_four"
+                        android:text="@string/value_four"
                         android:layout_weight="1"
                         android:layout_width="0dp"
                         android:layout_height="match_parent" android:id="@+id/button4"/>
 
                 <Button
                         android:onClick="displayNumber"
-                        android:tag="5"
-                        android:text="5"
+                        android:tag="@string/value_five"
+                        android:text="@string/value_five"
                         android:layout_weight="1"
                         android:layout_width="0dp"
                         android:layout_height="match_parent" android:id="@+id/button5"/>
 
                 <Button
                         android:onClick="displayNumber"
-                        android:tag="6"
-                        android:text="6"
+                        android:tag="@string/value_six"
+                        android:text="@string/value_six"
                         android:layout_weight="1"
                         android:layout_width="0dp"
                         android:layout_height="match_parent" android:id="@+id/button6"/>
@@ -114,24 +113,24 @@
 
                 <Button
                         android:onClick="displayNumber"
-                        android:tag="1"
-                        android:text="1"
+                        android:tag="@string/value_one"
+                        android:text="@string/value_one"
                         android:layout_weight="1"
                         android:layout_width="0dp"
                         android:layout_height="match_parent" android:id="@+id/button1"/>
 
                 <Button
                         android:onClick="displayNumber"
-                        android:tag="2"
-                        android:text="2"
+                        android:tag="@string/value_two"
+                        android:text="@string/value_two"
                         android:layout_weight="1"
                         android:layout_width="0dp"
                         android:layout_height="match_parent" android:id="@+id/button2"/>
 
                 <Button
                         android:onClick="displayNumber"
-                        android:tag="3"
-                        android:text="3"
+                        android:tag="@string/value_three"
+                        android:text="@string/value_three"
                         android:layout_weight="1"
                         android:layout_width="0dp"
                         android:layout_height="match_parent" android:id="@+id/button3"/>
@@ -163,8 +162,8 @@
 
                 <Button
                         android:onClick="displayNumber"
-                        android:tag="0"
-                        android:text="0"
+                        android:tag="@string/value_zero"
+                        android:text="@string/value_zero"
                         android:layout_weight="2"
                         android:layout_width="0dp"
                         android:layout_height="match_parent" android:id="@+id/button0"/>
